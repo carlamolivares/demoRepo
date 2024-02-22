@@ -22,3 +22,6 @@ git checkout -b branch1
 
 # to change branches
 git checkout branchname
+
+# cache credentials
+git config --global credential.helper store (stores them permanently)
