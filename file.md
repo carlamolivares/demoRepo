@@ -2,7 +2,7 @@
 git branch -M main
 
 # add file to git 
-git add .\file.md
+git add file.md or git add . 
 
 # commits the changes to local git repo
 git commit -m "added file.md"
@@ -11,3 +11,6 @@ git commit -m "added file.md"
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ~/.gitconfig
+
+# make sure that the default branch for any repo is main instead of master
+git config --global unit.defaultbranch main
